@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	ginSwagger "github.com/koplas/gin-swagger/v2"
+	v1 "github.com/koplas/gin-swagger/v2/example/multiple/api/v1"
+	v2 "github.com/koplas/gin-swagger/v2/example/multiple/api/v2"
+	_ "github.com/koplas/gin-swagger/v2/example/multiple/docs"
 	swaggerFiles "github.com/swaggo/files"
-	ginSwagger "github.com/swaggo/gin-swagger"
-	v1 "github.com/swaggo/gin-swagger/example/multiple/api/v1"
-	v2 "github.com/swaggo/gin-swagger/example/multiple/api/v2"
-	_ "github.com/swaggo/gin-swagger/example/multiple/docs"
 )
 
 func main() {

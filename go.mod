@@ -7,7 +7,6 @@ require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/stretchr/testify v1.8.2
 	github.com/swaggo/files v1.0.1
-	github.com/swaggo/swag v1.16.4
 	github.com/swaggo/swag/v2 v2.0.0-rc4
 	golang.org/x/net v0.23.0
 )
